@@ -23,7 +23,7 @@ cd QML
 
 ### 2. Set up the environment
 
-> **Note**: This project requires **Python 3.11 or earlier** for compatibility with quantum libraries such as Qiskit and PennyLane.
+> **Note**: This project requires **Python 3.11 or earlier** for compatibility with quantum libraries such as Qiskit and PennyLane. All imports are prepared inside the notebook for seamless running.
 
 Option 1 - using **venv**:
 
@@ -31,7 +31,6 @@ Option 1 - using **venv**:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-pip install -r requirements.txt
 ```
 
 Option 2 - using **conda**:
