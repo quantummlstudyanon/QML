@@ -38,7 +38,6 @@ Option 2 - using **conda**:
 ```bash
 conda create -n qml python=3.11
 conda activate qml
-pip install -r requirements.txt
 ```
 
 ### 3. Launch notebooks
